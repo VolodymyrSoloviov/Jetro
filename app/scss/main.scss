@@ -1,0 +1,23 @@
+$container-width: 940px;
+
+//colors
+$white: #fff;
+$gray: #414141;
+$orange: #e8603c;
+$light-gray: #b9b9b9;
+
+//layout
+@import "layout/adjustment";
+@import "layout/fonts";
+
+//sections
+@import "sections/one";
+@import "sections/two";
+@import "sections/three";
+
+//media
+@import "media/tv";
+@import "media/desktop";
+@import "media/laptop";
+@import "media/tablets";
+@import "media/phones";
