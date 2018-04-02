@@ -25,6 +25,8 @@ body {
 	overflow: hidden;
 	min-height: 100%;
 	min-width: $container-width + 20px;
+	background: url('../img/bg/Background.png') center center;
+	background-size: cover;
 }
 
 ul {

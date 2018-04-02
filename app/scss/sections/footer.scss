@@ -1,0 +1,76 @@
+.footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 35px 30px;
+	color: $white;
+	background-color: #e8663c;
+}
+
+.footer__about,
+.footer__contacts {
+	width: 260px;
+}
+
+.footer__title {
+	font-family: 'Bebas';
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+
+.footer__twitter {
+	width: 220px;
+}
+
+.footer__twitter-item {
+	margin-bottom: 20px;
+
+	p {
+		margin: 0 0 5px;
+	}
+}
+
+.footer__twitter-name,
+.footer__twitter-time {
+	color: #f3b29d;
+}
+
+.footer__contacts-link {
+	text-decoration: none;
+	font-style: normal;
+	color: $white;
+}
+
+.footer__social-list {
+	display: flex;
+	margin-top: 15px;
+}
+
+.footer__social-item {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	border-radius: 3px;
+	background-color: #e8663c;
+	background-position: center center no-repeat;
+	background-size: cover;
+	transition: .3s;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover {
+		box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, .5);
+	}
+}
+
+.footer__social-link {
+	display: block;
+	height: 100%;
+}
+
+@each $footer__social-item in (facebook, twitter, email, rss, vimeo) {
+ .footer__social-item_#{$footer__social-item} {
+  background-image: url("../img/icons/#{$footer__social-item}.jpg");
+  }
+}

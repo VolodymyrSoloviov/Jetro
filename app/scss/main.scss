@@ -11,9 +11,10 @@ $light-gray: #b9b9b9;
 @import "layout/fonts";
 
 //sections
-@import "sections/one";
-@import "sections/two";
-@import "sections/three";
+@import "sections/header";
+@import "sections/home";
+@import "sections/footer";
+@import "sections/my-style";
 
 //media
 @import "media/tv";
