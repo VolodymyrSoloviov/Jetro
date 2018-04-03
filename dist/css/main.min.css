@@ -357,6 +357,167 @@ h6 {
   color: #e8603c;
   margin-top: 2px; }
 
+.nav__link-span {
+  color: #f3af9d; }
+
+.about__title {
+  font-family: 'Bebas';
+  font-size: 24px;
+  color: #fff;
+  background-color: #e8603c;
+  padding: 13px 20px; }
+
+.about__main {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 20px; }
+
+.about__left {
+  width: 71.28%;
+  line-height: 18px; }
+
+.about__pic {
+  float: left;
+  width: 228px;
+  height: 228px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-right: 25px;
+  padding: 2px;
+  overflow: hidden; }
+
+.about__img {
+  width: 222px;
+  height: 222px; }
+
+.about__big-latter {
+  float: left;
+  margin: 0;
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  color: #e8603c; }
+
+.about__blockquote {
+  margin: 30px 0 30px 50px;
+  padding-left: 20px;
+  border-left: 8px solid #e8663c;
+  font-weight: 300;
+  font-style: italic; }
+
+.about__columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.about__column {
+  width: 315px; }
+
+.about__small-column {
+  width: 210px;
+  margin-top: 20px; }
+
+.about__alert-list {
+  width: 100%;
+  margin: 40px 0; }
+
+.about__alerts-item {
+  display: -ms-flexbox;
+  display: flex;
+  height: 62px;
+  width: 100%;
+  border: 1px solid transparent;
+  margin-bottom: 18px; }
+  .about__alerts-item:last-child {
+    margin-bottom: 0; }
+
+.about__alert-text {
+  margin: auto;
+  font-style: italic;
+  font-size: 14px; }
+
+.about__alerts-item_green {
+  background-color: #effeb9;
+  border-color: #98c601;
+  color: #98c601; }
+
+.about__alerts-item_red {
+  background-color: #fbcbc1;
+  border-color: #eb5439;
+  color: #eb5439; }
+
+.about__alerts-item_orange {
+  background-color: #ffe9ad;
+  border-color: #fab418;
+  color: #fab418; }
+
+.about__alerts-item_blue {
+  background-color: #d1e4f3;
+  border-color: #4d8fcb;
+  color: #4d8fcb; }
+
+.aside {
+  width: 23.40%; }
+
+.aside__about,
+.categories {
+  margin-bottom: 35px; }
+
+.aside__top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 15px; }
+
+.aside__title {
+  font-family: 'Bebas';
+  font-size: 14px;
+  color: #e8603c;
+  margin-right: 15px; }
+
+.aside__bg {
+  -ms-flex: 1 1 100px;
+      flex: 1 1 100px;
+  height: 13px;
+  background: url("../img/bg/Line.png") center center no-repeat;
+  background-size: cover; }
+
+.aside__text {
+  color: #464646; }
+
+.categories__item:hover .categories__link {
+  color: #e8603c; }
+
+.categories__link {
+  display: block;
+  text-decoration: none;
+  color: #464646;
+  transition: .3s; }
+
+.photo-galerry__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.photo-galerry__item {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px; }
+
+.photo-galerry__pic {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e8603c;
+  background-color: #f3af9d; }
+
 .footer__wrap {
   display: -ms-flexbox;
   display: flex;

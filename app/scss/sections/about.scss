@@ -1,0 +1,118 @@
+.nav__link-span {
+	color: #f3af9d;
+}
+
+.about__title {
+	font-family: 'Bebas';
+	font-size: 24px;
+	color: $white;
+	background-color: #e8603c;
+	padding: 13px 20px;
+}
+
+.about__main {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.about__left {
+	width: 71.28%;
+	line-height: 18px;
+}
+
+.about__pic {
+	float: left;
+	width: 228px;
+	height: 228px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-right: 25px;
+	padding: 2px;
+	overflow: hidden;
+}
+
+.about__img {
+	width: 222px;
+	height: 222px;
+}
+
+.about__big-latter {
+	float: left;
+	margin: 0;
+	margin-right: 5px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 36px;
+	color: $orange;
+}
+
+.about__blockquote {
+	margin: 30px 0 30px 50px;
+	padding-left: 20px;
+	border-left: 8px solid #e8663c;
+	font-weight: 300;
+  font-style: italic;
+}
+
+.about__columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__column {
+	width: 315px;
+}
+
+.about__small-column {
+	width: 210px;
+	margin-top: 20px;
+}
+
+.about__alert-list {
+	width: 100%;
+	margin: 40px 0;
+}
+
+.about__alerts-item {
+	display: flex;
+	height: 62px;
+	width: 100%;
+	border: 1px solid transparent;
+	margin-bottom: 18px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.about__alert-text {
+	margin: auto;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.about__alerts-item_green {
+	background-color: #effeb9;
+	border-color: #98c601;
+	color: #98c601;
+}
+
+.about__alerts-item_red {
+	background-color: #fbcbc1;
+	border-color: #eb5439;
+	color: #eb5439;
+}
+
+.about__alerts-item_orange {
+	background-color: #ffe9ad;
+	border-color: #fab418;
+	color: #fab418;
+}
+
+.about__alerts-item_blue {
+	background-color: #d1e4f3;
+	border-color: #4d8fcb;
+	color: #4d8fcb;
+}
+
