@@ -2,7 +2,7 @@
 	color: #f3af9d;
 }
 
-.about__title {
+.main__title {
 	font-family: 'Bebas';
 	font-size: 24px;
 	color: $white;
@@ -10,13 +10,13 @@
 	padding: 13px 20px;
 }
 
-.about__main {
+.about {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 20px;
 }
 
-.about__left {
+.main__left {
 	width: 71.28%;
 	line-height: 18px;
 }

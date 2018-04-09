@@ -360,21 +360,21 @@ h6 {
 .nav__link-span {
   color: #f3af9d; }
 
-.about__title {
+.main__title {
   font-family: 'Bebas';
   font-size: 24px;
   color: #fff;
   background-color: #e8603c;
   padding: 13px 20px; }
 
-.about__main {
+.about {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
   margin-top: 20px; }
 
-.about__left {
+.main__left {
   width: 71.28%;
   line-height: 18px; }
 
@@ -459,6 +459,203 @@ h6 {
   background-color: #d1e4f3;
   border-color: #4d8fcb;
   color: #4d8fcb; }
+
+.blog {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-top: 25px; }
+
+.blog__item {
+  position: relative;
+  margin-bottom: 50px; }
+
+.blog__block {
+  position: absolute;
+  left: -85px;
+  width: 75px;
+  height: 75px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #e8603c; }
+
+.blog__block_themes {
+  background-image: url("../img/icons/themes.png"); }
+
+.blog__block_wallpaper {
+  background-image: url("../img/icons/wallpaper.png"); }
+
+.blog__block_play {
+  background-image: url("../img/icons/play.png"); }
+
+.blog__block_apologic {
+  background-image: url("../img/icons/apologic.png"); }
+
+.blog__block_link {
+  background-image: url("../img/icons/link.png"); }
+
+.blog-slider__wrapper {
+  position: relative; }
+
+.blog-slider__arrow-prev,
+.blog-slider__arrow-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  width: 35px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+  opacity: .7;
+  transition: .3s; }
+  .blog-slider__arrow-prev:hover,
+  .blog-slider__arrow-next:hover {
+    opacity: 1; }
+
+.blog-slider__arrow-prev {
+  left: 20px;
+  background: url("../img/icons/previous.png") center center no-repeat; }
+
+.blog-slider__arrow-next {
+  right: 20px;
+  background: url("../img/icons/next.png") center center no-repeat; }
+
+.blog-slider {
+  height: 300px;
+  width: 100%; }
+
+.blog-slider__item {
+  height: 300px;
+  width: 100%;
+  overflow: hidden; }
+
+.blog-slider__img {
+  height: 100%;
+  width: 100%; }
+
+.blog__info {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0 50px; }
+
+.blog__info-left {
+  width: 21.64%; }
+
+.blog__info-item {
+  margin-bottom: 10px;
+  color: #bababa; }
+
+.blog__info-title {
+  font-family: 'Bebas';
+  color: #e8603c;
+  margin-bottom: 3px; }
+
+.blog__info-tags {
+  padding-right: 5px;
+  border-right: 1px solid #bababa; }
+  .blog__info-tags:last-child {
+    border-right: none; }
+
+.blog__info-right {
+  width: 78.36%; }
+
+.blog__caption {
+  font-family: 'Bebas';
+  font-size: 18px;
+  color: #e8603c;
+  margin-bottom: 20px; }
+
+.blog__text {
+  line-height: 18px; }
+
+.blog__border {
+  height: 14px;
+  background: url("../img/bg/Line.png") center center;
+  background-size: cover; }
+
+.blog__wallpaper-pic {
+  height: 300px;
+  width: 100%;
+  overflow: hidden; }
+
+.blog__wallpaper-img {
+  height: 100%;
+  width: 100%; }
+
+.blog__video-wrap {
+  height: 300px;
+  width: 100%; }
+
+.blog__video {
+  height: 100%;
+  width: 100%; }
+
+.blog__quotable-area {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 20px 30px;
+  background: url("../img/bg/quotable-area.png") center center;
+  margin-bottom: 50px; }
+
+.blog__apologic-pic {
+  height: 20px;
+  width: 25px;
+  background: url("../img/icons/apologic-orange.png") center center no-repeat;
+  margin-right: 20px; }
+
+.blog__apologic-text {
+  width: 100%;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 18px;
+  color: #474747; }
+  .blog__apologic-text p {
+    margin: 0; }
+
+.blog__caption_mn {
+  margin-bottom: 5px; }
+
+.blog__email-link {
+  font-style: normal;
+  text-decoration: none;
+  color: #a0a0a0; }
+
+.blog__some-text {
+  margin: 20px 0 50px; }
+
+.blog__pages-list {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px; }
+
+.blog__pages-item {
+  height: 26px;
+  width: 26px;
+  background-color: #f3b29d;
+  margin-right: 4px;
+  transition: .3s; }
+  .blog__pages-item:hover {
+    background-color: #e8663c; }
+  .blog__pages-item:last-child {
+    margin-right: 0; }
+
+.blog__pages-item_active {
+  background-color: #e8663c; }
+
+.blog__pages-link {
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-family: 'Bebas';
+  color: #fff;
+  height: 100%; }
+
+.blog__page {
+  margin: auto; }
 
 .aside {
   width: 23.40%; }

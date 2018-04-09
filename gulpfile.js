@@ -27,7 +27,7 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 // Пути к нашим модулям JS
 var moduleJs = [
   'app/js/slider.js',
-  'app/js/first.js', 
+  'app/js/blog-slider.js', 
   'app/js/second.js', 
   'app/js/third.js', 
   ];
@@ -35,6 +35,7 @@ var moduleJs = [
 var vendorJs = [
   'app/bower/jquery/dist/jquery.min.js',
   'app/bower/slick-carousel/slick/slick.min.js',
+  'app/bower/owl.carousel/dist/owl.carousel.min.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам css
 var vendorCss = [
@@ -42,6 +43,7 @@ var vendorCss = [
   'app/scss/layout/fontawesome-all.css',
   'app/bower/slick-carousel/slick/slick.css',
   'app/bower/slick-carousel/slick/slick-theme.css',
+  'app/bower/owl.carousel/dist/assets/owl.carousel.css',
   ];
 
 // Запускаем сервер. Предварительно выполнив задачи ['html', 'styles', 'images',
