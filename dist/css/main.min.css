@@ -657,6 +657,86 @@ h6 {
 .blog__page {
   margin: auto; }
 
+.portfolio-filter__list {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 35px 0; }
+
+.portfolio-filter__item:hover .portfolio-filter__link {
+  background-color: #e8663c;
+  color: #fff; }
+
+.portfolio-filter__item_active .portfolio-filter__link {
+  background-color: #e8663c;
+  color: #fff; }
+
+.portfolio-filter__link {
+  display: block;
+  text-decoration: none;
+  font-family: 'Bebas';
+  font-size: 14px;
+  color: #b9b9b9;
+  padding: 5px 10px;
+  transition: .3s; }
+
+.portfolio__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5px; }
+
+.portfolio__item {
+  width: 220px;
+  margin-bottom: 40px; }
+  .portfolio__item:hover .portfolio__hover {
+    opacity: 1; }
+
+.portfolio__link {
+  display: block;
+  text-decoration: none; }
+
+.portfolio__pic {
+  position: relative;
+  width: 220px;
+  height: 184px;
+  background-color: #dbdbdb;
+  overflow: hidden; }
+
+.portfolio__img {
+  width: auto;
+  height: 100%; }
+
+.portfolio__hover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../img/icons/plus.png") center center no-repeat;
+  background-color: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  transition: .3s; }
+
+.portfolio__bottom {
+  width: 220px;
+  padding: 10px 14px;
+  border: 1px solid #dbdbdb;
+  border-top: none; }
+
+.portfolio__name {
+  font-family: 'Bebas';
+  font-size: 16px;
+  color: #b9b9b9; }
+
+.portfolio__date {
+  font-family: 'Bebas';
+  font-size: 11px;
+  color: #e8603c;
+  margin-top: 2px; }
+
 .aside {
   width: 23.40%; }
 
