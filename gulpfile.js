@@ -121,7 +121,7 @@ gulp.task('build:js', function () {
     }))
     .pipe(gulpIf(isDevelopment, sourcemaps.init()))
     .pipe(concat('main.min.js'))
-    .pipe(uglify())
+    //.pipe(uglify())
     .pipe(gulpIf(isDevelopment, sourcemaps.write('maps')))
     .pipe(gulp.dest('dist/js'));
 });
