@@ -16,12 +16,14 @@ $light-gray: #b9b9b9;
 @import "sections/about";
 @import "sections/blog";
 @import "sections/portfolio";
+@import "sections/contact";
+@import "sections/item";
 @import "sections/aside";
 @import "sections/footer";
 @import "sections/my-style";
 
 //media
-@import "media/tv";
+@import "media/TV";
 @import "media/desktop";
 @import "media/laptop";
 @import "media/tablets";

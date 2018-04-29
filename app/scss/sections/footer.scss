@@ -38,6 +38,11 @@
 	text-decoration: none;
 	font-style: normal;
 	color: $white;
+	transition: .3s;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 .footer__social-list {

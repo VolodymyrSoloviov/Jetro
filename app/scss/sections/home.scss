@@ -31,7 +31,7 @@
 
 .slider__small-pic {
 	height: 120px;
-	width: 140px !important;
+	width: 140px;
 	outline: none;
 	margin-right: 20px;
 	cursor: pointer;
@@ -179,7 +179,7 @@
 }
 
 .recent-works__item{
-	width: 220px;
+	//width: 220px;
 	transition: .3s;
 
 	&:hover {
@@ -193,7 +193,7 @@
 }
 
 .recent-works__pic {
-	width: 220px;
+	//width: 220px;
 	height: 184px;
 	background-color: #dbdbdb;
 	overflow: hidden;

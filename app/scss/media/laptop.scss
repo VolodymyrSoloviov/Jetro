@@ -1,5 +1,46 @@
-// @media screen and (max-width: 992px) {
-// 	.container {
-// 		width: 730px;
-// 	}
-// }
+@media screen and (max-width: 992px) {
+	.container {
+		width: 730px;
+	}
+
+	.blog__block {
+		display: none;
+	}
+
+	.slider__small {
+		width: 100%;
+	}
+
+	.slider__small-img {
+		width: 100%;
+	}
+
+	.features__list {
+		flex-wrap: wrap;
+	}
+
+	.features__item {
+		width: 49%;
+		margin-bottom: 20px;
+	}
+
+	.features__title {
+		flex: 1 1 205px;
+	}
+
+	.recent-works__bg {
+		width: 82%;
+	}
+
+	.scroll-btn {
+		right: 30px;
+	}
+
+	.scroll-btn__active {
+		bottom: 30px;
+	}
+
+	.form__input {
+		width: 100%;
+	}
+}

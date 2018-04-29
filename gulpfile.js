@@ -28,8 +28,10 @@ const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'developm
 var moduleJs = [
   'app/js/slider.js',
   'app/js/blog-slider.js', 
-  'app/js/second.js', 
-  'app/js/third.js', 
+  'app/js/map.js',
+  'app/js/scroll-btn.js', 
+  'app/js/recent-slider.js',
+  'app/js/mobile-menu.js',
   ];
 // Пути к нашим внешним плагинам и библиотекам javascript
 var vendorJs = [

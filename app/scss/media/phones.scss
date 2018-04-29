@@ -1,5 +1,52 @@
-// @media screen and (max-width: 480px) {
-// 	.container {
-// 		width: 95%;
-// 	}
-// }
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+
+	.slider__main-description {
+		display: none;
+	}
+
+	.slider {
+		height: 440px;
+	}
+
+	.slider__main,
+	.slider__main-pic {
+		height: 300px;	
+	}
+	
+	.footer__wrap {
+		padding: 10px;
+	}
+
+	.footer__about,
+	.footer__twitter,
+	.footer__contacts {
+		display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+	}
+
+	.portfolio__item,
+	.portfolio__pic,
+	.portfolio__bottom,
+	.portfolio__img {
+		width: 100%;
+	}
+
+	.portfolio__bottom {
+		text-align: center;
+	}
+
+	.item__pic {
+		height: 300px;
+	}
+
+	.item__text,
+	.contact__text {
+		text-align: justify;
+	}
+}

@@ -4,7 +4,7 @@ $(function() {
     loop: true,
   });
 
-  var owl = $('.owl-carousel');
+  var owl = $('.blog-slider');
 	owl.owlCarousel();
 
   $('.blog-slider__arrow-next').click(function() {
